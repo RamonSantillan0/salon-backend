@@ -312,6 +312,7 @@ app = FastAPI(title="Agenda Turnos API (SQLite + Ollama Cloud)")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://salon-backend-qqr1.onrender.com",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
     ],
